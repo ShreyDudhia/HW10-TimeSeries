@@ -7,9 +7,9 @@ In this analysis, we test the many time-series tools that we can use to predict 
 
 The following are the main tasks that we go through:
 
-Time Series Forecasting
+1. Time Series Forecasting
 
-Linear Regression Modeling
+2. Linear Regression Modeling
 
 
 ## Time-Series Forecasting
@@ -42,13 +42,17 @@ A. Yes, because this upward trend forecast is short term and there is higher cha
 ## Linear Regression Forecasting
 In this analysis, we build a Scikit-Learn linear regression model to predict Yen futures ("settle") returns with lagged Yen futures returns and categorical calendar seasonal effects (e.g., day-of-week or week-of-year seasonal effects).
 
-Data Preparation (Creating Returns and Lagged Returns and splitting the data into training and testing data)
-Fitting a Linear Regression Model.
-Making predictions using the testing data.
-Out-of-sample performance.
-In-sample performance.
+1. Data Preparation (Creating Returns and Lagged Returns and splitting the data into training and testing data)
 
-Use the results of the linear regression analysis and modeling to answer the following question:
+2. Fitting a Linear Regression Model.
+
+3. Making predictions using the testing data.
+
+4. Out-of-sample performance.
+ 
+5. In-sample performance.
+
+Then we use the results of the linear regression analysis and modeling to answer the following question:
 
 Q. Does this model perform better or worse on out-of-sample data compared to in-sample data?
 A. Comparatively, if we look at the Root Mean Squared Error (RMSE) then the out-of-sample data is performs better as it has a lower score of .42 vs .57. As the lower the RMSE, the better fit the model is. 
