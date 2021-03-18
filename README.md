@@ -8,6 +8,7 @@ In this analysis, we test the many time-series tools that we can use to predict 
 The following are the main tasks that we go through:
 
 Time Series Forecasting
+
 Linear Regression Modeling
 
 
